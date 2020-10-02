@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.91">
+<testcase classname="Background check example" name="Background test" time="0.165">
+<system-out><![CDATA[Given open the browser......................................................passed
+Then launch the url.........................................................passed
+Then login to the app.......................................................passed
+Given Click on Add Employee.................................................passed
+Then Give Hr User ID "Admin"................................................passed
+Then Add Employee details like Name and SurName.............................passed
+Then Save Employee Info.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background check example" name="Delete Employee" time="0.04">
+<system-out><![CDATA[Given open the browser......................................................passed
+Then launch the url.........................................................passed
+Then login to the app.......................................................passed
+Given Go to Employee Tab....................................................passed
+Then Click on edit Employee.................................................passed
+Then Click on delete employee...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background check example" name="" time="0.023">
+<system-out><![CDATA[Given open the browser......................................................passed
+Then launch the url.........................................................passed
+Then login to the app.......................................................passed
+Given User is on Employee Page..............................................passed
+Then Add further details of Employee like "Umesh" and "Marur"...............passed
+Then Add Employees personal details like "Married" and "45000"..............passed
+Then Save Employee details finally..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background check example" name="_2" time="0.013">
+<system-out><![CDATA[Given open the browser......................................................passed
+Then launch the url.........................................................passed
+Then login to the app.......................................................passed
+Given User is on Employee Page..............................................passed
+Then Add further details of Employee like "Ravi" and "Ganga"................passed
+Then Add Employees personal details like "Unmarried" and "20000"............passed
+Then Save Employee details finally..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background check example" name="Map Check" time="0.015">
+<system-out><![CDATA[Given open the browser......................................................passed
+Then launch the url.........................................................passed
+Then login to the app.......................................................passed
+Given Click on Map..........................................................passed
+Then Give Map ID "13".......................................................passed
+Then Map details like City and Pin..........................................passed
+Then Save Employee Info.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

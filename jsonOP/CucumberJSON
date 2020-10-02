@@ -1,0 +1,902 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDef.BackgroundTest.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the url",
+            "match": {
+              "location": "StepDef.BackgroundTest.launch_the_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to the app",
+            "match": {
+              "location": "StepDef.BackgroundTest.login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-02T19:18:29.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b2()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.B()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.f1()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Background test",
+        "description": " Adding Employee",
+        "id": "background-check-example;background-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.fa1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A2()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Add Employee",
+            "match": {
+              "location": "StepDef.BackgroundTest.click_on_add_employee()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Give Hr User ID \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDef.BackgroundTest.give_hr_user_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Add Employee details like Name and SurName",
+            "match": {
+              "location": "StepDef.BackgroundTest.add_employee_details_like_name_and_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Mahesh",
+                  "Maroor"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Save Employee Info",
+            "match": {
+              "location": "StepDef.BackgroundTest.save_employee_info()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDef.BackgroundTest.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the url",
+            "match": {
+              "location": "StepDef.BackgroundTest.launch_the_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to the app",
+            "match": {
+              "location": "StepDef.BackgroundTest.login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-02T19:18:29.862Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.B()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.S1()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Delete Employee",
+        "description": "",
+        "id": "background-check-example;delete-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.fs1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A2()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Go to Employee Tab",
+            "match": {
+              "location": "StepDef.BackgroundTest.go_to_employee_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on edit Employee",
+            "match": {
+              "location": "StepDef.BackgroundTest.click_on_edit_employee()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on delete employee",
+            "match": {
+              "location": "StepDef.BackgroundTest.click_on_delete_employee()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDef.BackgroundTest.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the url",
+            "match": {
+              "location": "StepDef.BackgroundTest.launch_the_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to the app",
+            "match": {
+              "location": "StepDef.BackgroundTest.login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-02T19:18:29.924Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.B()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "",
+        "description": "",
+        "id": "background-check-example;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A2()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Employee Page",
+            "match": {
+              "location": "StepDef.BackgroundTest.user_is_on_employee_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Add further details of Employee like \"Umesh\" and \"Marur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Umesh",
+                  "offset": 38
+                },
+                {
+                  "val": "Marur",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDef.BackgroundTest.add_further_details_of_employee_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Add Employees personal details like \"Married\" and \"45000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Married",
+                  "offset": 37
+                },
+                {
+                  "val": "45000",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDef.BackgroundTest.add_employees_personal_details_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Save Employee details finally",
+            "match": {
+              "location": "StepDef.BackgroundTest.save_employee_details_finally()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDef.BackgroundTest.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the url",
+            "match": {
+              "location": "StepDef.BackgroundTest.launch_the_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to the app",
+            "match": {
+              "location": "StepDef.BackgroundTest.login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-02T19:18:29.966Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b2()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.B()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "",
+        "description": "",
+        "id": "background-check-example;;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Employee Page",
+            "match": {
+              "location": "StepDef.BackgroundTest.user_is_on_employee_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Add further details of Employee like \"Ravi\" and \"Ganga\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi",
+                  "offset": 38
+                },
+                {
+                  "val": "Ganga",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDef.BackgroundTest.add_further_details_of_employee_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Add Employees personal details like \"Unmarried\" and \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unmarried",
+                  "offset": 37
+                },
+                {
+                  "val": "20000",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDef.BackgroundTest.add_employees_personal_details_like_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Save Employee details finally",
+            "match": {
+              "location": "StepDef.BackgroundTest.save_employee_details_finally()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDef.BackgroundTest.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch the url",
+            "match": {
+              "location": "StepDef.BackgroundTest.launch_the_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to the app",
+            "match": {
+              "location": "StepDef.BackgroundTest.login_to_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-02T19:18:30.006Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.b2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.B()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Map Check",
+        "description": " Purpose is to check Map",
+        "id": "background-check-example;map-check",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A2()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BackgroundTest.A1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click on Map",
+            "match": {
+              "location": "StepDef.BackgroundTest.click_on_map()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Give Map ID \"13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.BackgroundTest.give_map_id(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Map details like City and Pin",
+            "match": {
+              "location": "StepDef.BackgroundTest.map_details_like_city_and_pin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "City",
+                  "Pin"
+                ]
+              },
+              {
+                "cells": [
+                  "Bidar",
+                  "521"
+                ]
+              },
+              {
+                "cells": [
+                  "Kalyan",
+                  "897"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Save Employee Info",
+            "match": {
+              "location": "StepDef.BackgroundTest.save_employee_info()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Background check example",
+    "description": "Purpose is to check background function",
+    "id": "background-check-example",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/FeatureFiles/BackgroundCheck.feature",
+    "tags": []
+  }
+]
