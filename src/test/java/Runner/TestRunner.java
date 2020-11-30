@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
                   dryRun=false,
                   strict=true,
                   plugin={"pretty","html:Html_test-output","json:jsonOP\\CucumberJSON","junit:junitXml\\XmlRes"}
-                 ,tags="~@SmokeTest ,@RegressionTest"
+                  ,tags="@SmokeTest"
                    
 		)
 public class TestRunner 
